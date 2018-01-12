@@ -1,0 +1,292 @@
+html{
+	font-size: 50px;
+}
+body,ul,li,h1,h2,h3,input,span,p{
+	margin: 0;
+	padding: 0;
+}
+img,span,ul,li{
+	display:block;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background-color: #F1F3F6;
+}
+a{
+	color: #000;
+}
+ul,li{
+	list-style: none;
+}
+body{
+	background-color: #fff;
+}
+.box{
+	width: 7.5rem;
+	height: auto;
+	margin: 0 auto;
+	background-color: #fff;
+}
+.top{
+	width: 7.5rem;
+	height: 0.92rem;
+	background-color: #fff;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	border-bottom: 0.1rem solid #F0F0F0;
+}
+.top .zi{
+	font-size: 0.35rem;
+	color: #495056;
+	line-height: 0.61rem;
+	margin-left: 3.25rem;
+	line-height: 0.92rem;
+	float: left;
+}
+.zi:hover{
+	cursor: pointer;
+}
+.top .iconfont{
+	width: 0.5rem;
+	height: 0.5rem;
+	font-size: 0.5rem;
+	float: right; 
+	margin-right: 0.25rem;
+	margin-top: 0.23rem;
+	color: #868686;
+}
+.denglu{
+	width: 7.5rem;
+	height: 1.63rem;
+	margin-top: 0.92rem;
+	margin-bottom: 0.14rem;
+	overflow: hidden;
+	border-bottom: 0.1rem solid #F0F0F0;
+}
+.denglu .iconfont{
+	font-size: 0.66rem;
+	color: #B9EEC2;
+	padding-left: 0.3rem;
+	float: left;
+	line-height: 1.63rem;
+}
+.denglu p{
+	font-size: 0.3rem;
+	color: #73767E;
+	float: left;
+	line-height: 1.63rem;
+	margin-left: 0.2rem;
+}
+.dingdan{
+	width: 6.9rem;
+	height: 6.06rem;
+	border-bottom: 0.1rem solid #F0F0F0;
+	padding: 0 0.3rem;
+}
+.dingdan .ding{
+	width: 6.9rem;
+	height: 0.73rem;
+	font-size: 0.3rem;
+	font-weight: 500;
+	padding-top: 0.43rem;
+}
+.dingdan .ding2{
+	width: 100%;
+	height: 1.19rem;
+	padding-left: 0.3rem;
+}
+.dingdan .ding2 .dan1{
+	width: auto;
+	height: 0.94rem;
+	font-size: 0.25rem;
+	margin-right: 1rem;
+	float: left;
+
+}
+.dingdan .ding2 .iconfont{
+	font-size: 0.43rem;
+	color: #0FB592;
+	margin-left: 0.25rem;
+	margin-top: 0.2rem;
+}
+.dingdan .ding3{
+	width: 100%;
+	height: 0.6rem;
+	font-size: 0.3rem;
+	font-weight: 500;
+	line-height: 0.6rem;
+}
+.dingdan .ding4{
+	width: 100%;
+	height: 2.6rem;
+	padding-top: 0.3rem;
+}
+.dingdan .ding4 .dan1{
+	width: auto;
+	height: 0.94rem;
+	font-size: 0.25rem;
+	margin: 0 0.35rem;
+	float: left;
+}
+.dingdan .ding4 .dan2{
+	margin-left: 0;
+	margin-left: 0.35rem;
+}
+.dingdan .ding4 .dan5{
+	margin-left: 0;
+	margin-left: 0.35rem;
+}
+.dingdan .ding4 .dan6{
+	margin-top: 0.2rem;
+}
+.dingdan .ding4 .iconfont{
+	font-size: 0.43rem;
+	color: #0FB592;
+	margin-left: 0.25rem;
+	margin-top: 0.2rem;
+}
+.dingdan .ding4 .zi1{
+	color: #FFA600;
+}
+.dingdan .ding4 .zi2{
+	color: #EC8759;
+}
+.dingdan .ding4 .zi3{
+	color: #06BA94;
+}
+.dingdan .ding4 .zi4{
+	color: #3CB4DE;
+}
+.dingdan .ding4 .zi5{
+	color: #0AB890;
+}
+.dingdan .ding4 .zi6{
+	color: #3CB4DE;
+}
+.dingdan .ding4 .zi7{
+	color: #A064AB;
+}
+.dingdan .ding4 .zi8{
+	color: #FEA403;
+}
+.fenlei{
+	width: 6.9rem;
+	height: 3.73rem;
+	padding: 0 0.3rem;
+	border-bottom: 0.1rem solid #F0F0F0;
+}
+.fenlei ul{
+	width: 6.9rem;
+	height: 3.73rem;
+}
+.fenlei li{
+	width: 6.9rem;
+	height: 0.93rem;
+	font-size: 0.3rem;
+	float: left;
+	color: #959597;
+	line-height: 0.93rem;
+}
+.fenlei span{
+	float: right;
+}
+.nav{
+	width: 7.5rem;
+	height: 0.8rem;
+}
+.nav .nav1{
+	width: 7rem;
+	height: 0.8rem;
+	margin: 0 0.25rem;
+}
+.nav1 .lei{
+	width: 3rem;
+	height: 0.8rem;
+	font-size: 0.3rem;
+	float: left;
+	line-height: 1.2rem;
+}
+.xinxi{
+	width: 7.5rem;
+	height: auto;	
+}
+.xinxi .cheche{
+	width: 4.42rem;
+	height: 1.7rem;
+	padding: 0.32rem 0.32rem 0.32rem 2.76rem;
+	border-bottom: 0.01rem solid #e6e6e6;
+}
+.xinxi .cheche img{
+	width: 2.54rem;
+	height: 1.7rem;
+	margin-left: -2.54rem;
+}
+.xinxi .cheche .car-name{
+	width: 4.1rem;
+	height: 0.72rem;
+	margin-left: 0.1rem;
+    margin-top: -1.7rem;
+}
+.xinxi .cheche .car-name .name{
+	font-size: 0.32rem;
+    font-weight: 400;
+    color: #495056;
+} 
+.xinxi .cheche .car-nian{
+	width: 4.1rem;
+	height: 0.36rem;
+	margin-top: 0.1rem;
+	margin-left: 0.1rem;
+}
+.xinxi .cheche .car-nian .nian{
+	font-size: 0.24rem;
+    color: #757f89;
+}
+.xinxi .cheche .car-jiage{
+	width: 4.1rem;
+	height: 0.42rem;
+	margin-top: 0.14rem;
+	margin-left: 0.1rem;
+}
+.xinxi .cheche .car-jiage .jiage1{
+	padding-right: 0.15rem;
+    margin-top: 0.03rem;
+    font-size: 0.34rem;
+    line-height: 0.18rem;
+    color: #f56539;
+    font-weight: 500;
+    float: left;
+}
+.xinxi .cheche .car-jiage .shou{
+	color: #f56539;
+    font-size: 0.22rem;
+    line-height: 0.25rem;
+    float: right;
+    margin-right: 1.6rem;
+}
+.dibu{
+	width: 7.5rem;
+	height: 0.88rem;
+	background-color: #fff;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+.dibu .di1{
+	width: 25%;
+	height: 0.88rem;
+	font-size: 0.26rem;
+	color: #9ea2a6;
+	float: left;
+	text-align: center;
+}
+.dibu .iconfont{
+	font-size: 0.5rem;
+	color: #9ea2a6;
+}
+.dibu .shou1{
+	color: #37A844;
+}

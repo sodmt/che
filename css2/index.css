@@ -1,0 +1,237 @@
+html{
+	font-size: 50px;
+}
+body,ul,li,h1,h2,h3,input,span,p{
+	margin: 0;
+	padding: 0;
+}
+img,span,ul,li{
+	display:block;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background-color: #F1F3F6;
+}
+a{
+	color: #000;
+}
+ul,li{
+	list-style: none;
+}
+body{
+	background-color: #fff;
+}
+.box{
+	width: 7.5rem;
+	height: auto;
+	margin: 0 auto;
+	background-color: #fff;
+}
+.top{
+	width: 7.5rem;
+	height: 0.92rem;
+	background-color: #f5f5f5;
+	overflow: hidden;
+	position: fixed;
+	z-index: 10;
+}
+.top .sou1{
+	width: 6.31rem;
+	height: 0.61rem;
+	border: 0.01rem solid #dde4ea;
+	margin-left: 0.25rem;
+	margin-top: 0.15rem;
+	border-radius:0.1rem;
+	float: left;
+	background-color: #fff;
+}
+.top .sou1 .zi{
+	font-size: 0.35rem;
+	color: #495056;
+	line-height: 0.61rem;
+	margin-left: 0.25rem;
+	float: left;
+}
+.zi:hover{
+	cursor: pointer;
+}
+.top .sou1 .jiantou{
+	width: 0.2rem;
+	height: 0.56rem;
+	background-image: url('../img/jiantou.png');
+	background-size: 0.5rem 1rem;
+	background-position: 0 -0.69rem;
+	background-repeat: no-repeat;
+	float:left;
+	margin-left: 0.1rem;
+}
+.top .sou1 .shuxian{
+	font-size: 0.4rem;
+	margin-left: 0.2rem;
+	float: left;
+	color: #dde4ea;
+}
+.top .sou1 .xiangyao{
+	font-size: 0.3rem;
+	color: #bec6ce;
+	margin-left: 2.5rem;
+	line-height: 0.625rem;
+}
+.top .sou1 .soujing{
+	width: 0.35rem;
+	height: 0.4rem;
+	background-image: url('../img/jiantou.png');
+	background-size: 0.5rem 1rem;
+	background-position: 0rem -0.35rem;
+	background-repeat: no-repeat;
+	float:left;
+	margin-left: 0.5rem;
+	margin-top: 0.05rem;
+}
+.top .iconfont{
+	width: 0.5rem;
+	height: 0.5rem;
+	font-size: 0.5rem;
+	float: right; 
+	margin-right: 0.25rem;
+	margin-top: 0.23rem;
+	color: #868686;
+}
+.nav{
+	width: 7.5rem;
+	height: 0.8rem;
+	padding-top: 0.92rem;
+	border-bottom: 0.01rem solid #e6e6e6;
+}
+.nav .nav1{
+	width: 7rem;
+	height: 0.8rem;
+	margin: 0 0.25rem;
+}
+.nav1 .lei .iconfont{
+	font-size: 0.2rem;
+	float: left;
+	margin-top: 0.05rem;
+	margin-left: 0.05rem;
+}
+.nav1 .lei{
+	width: 20%;
+	height: 0.8rem;
+	float: left;
+}
+.nav1 .lei span{
+	font-size: 0.24rem;
+	line-height: 0.8rem;
+	float: left;
+}
+.nav1 .lei .zi1{
+	margin-left: 0.3rem;
+}
+.nav1 .lei .zi2{
+	margin-left: 0.3rem;
+}
+.nav1 .lei .zi3{
+	margin-left: 0.3rem;
+}
+.nav1 .lei .lei1{
+	width: 1.04rem;
+	height: 0.46rem;
+	padding: 0 0.12rem;
+    line-height: 0.46rem;
+    border: 0.01rem solid #e5e5e5;
+    border-radius: 0.30rem;
+    margin-top: 0.17rem;
+    font-size: 0.24rem;
+}
+.nav1 .lei .lei1 .iconfont{
+	font-size: 0.34rem;
+	color: #e5e5e5;
+	margin-top: -0.15rem;
+    margin-right: 0.07rem;
+    margin-left: -0.1rem;
+}
+
+.xinxi{
+	width: 7.5rem;
+	height: auto;
+	
+}
+.xinxi .cheche{
+	width: 4.42rem;
+	height: 1.7rem;
+	padding: 0.32rem 0.32rem 0.32rem 2.76rem;
+	border-bottom: 0.01rem solid #e6e6e6;
+}
+.xinxi .cheche img{
+	width: 2.54rem;
+	height: 1.7rem;
+	margin-left: -2.54rem;
+}
+.xinxi .cheche .car-name{
+	width: 4.1rem;
+	height: 0.72rem;
+	margin-left: 0.1rem;
+    margin-top: -1.7rem;
+}
+.xinxi .cheche .car-name .name{
+	font-size: 0.32rem;
+    font-weight: 400;
+    color: #495056;
+} 
+.xinxi .cheche .car-nian{
+	width: 4.1rem;
+	height: 0.36rem;
+	margin-top: 0.1rem;
+	margin-left: 0.1rem;
+}
+.xinxi .cheche .car-nian .nian{
+	font-size: 0.24rem;
+    color: #757f89;
+}
+.xinxi .cheche .car-jiage{
+	width: 4.1rem;
+	height: 0.42rem;
+	margin-top: 0.14rem;
+	margin-left: 0.1rem;
+}
+.xinxi .cheche .car-jiage .jiage1{
+	padding-right: 0.15rem;
+    margin-top: 0.03rem;
+    font-size: 0.34rem;
+    line-height: 0.18rem;
+    color: #f56539;
+    font-weight: 500;
+    float: left;
+}
+.xinxi .cheche .car-jiage .shou{
+	color: #f56539;
+    font-size: 0.22rem;
+    line-height: 0.25rem;
+    float: right;
+    margin-right: 1.6rem;
+}
+.dibu{
+	width: 7.5rem;
+	height: 0.88rem;
+	background-color: #fff;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+.dibu .di1{
+	width: 25%;
+	height: 0.88rem;
+	font-size: 0.26rem;
+	color: #9ea2a6;
+	float: left;
+	text-align: center;
+}
+.dibu .iconfont{
+	font-size: 0.5rem;
+	color: #9ea2a6;
+}
+.dibu .shou1{
+	color: #37A844;
+}

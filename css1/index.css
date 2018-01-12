@@ -1,0 +1,130 @@
+html{
+	font-size: 50px;
+}
+body,ul,li,h1,h2,h3,input,span,p,img{
+	margin: 0;
+	padding: 0;
+}
+img,span{
+	display:block;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background-color: #F1F3F6;
+}
+input{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	display: block;
+}
+.box{
+	width: 7.5rem;
+	height: 13.34rem;
+	background-color: #F3F4F8;
+}
+.top{
+	width: 7.5rem;
+	height: 0.92rem;
+	background-color: #F6F6F6;
+	overflow: hidden;
+}
+.top .jiantou img{
+	width: 0.33rem;
+	height: 0.43rem;
+	padding-top: 0.25rem;
+	padding-left: 0.3rem;
+	margin: 0;
+	float: left;
+}
+.top .deng{
+	font-size: 0.36rem;
+	color: #000;
+	font-weight: 600;
+	float: left;
+	margin-left: 2.9rem;
+	margin-top: 0.2rem;
+}
+.wuxu{
+	width: 7.5rem;
+	height: 2rem;
+	overflow: hidden;
+}
+.wuxu .wuxu1{
+	font-size: 0.3rem;
+	color: #818387;
+	margin-top: 1.2rem;
+	margin-left: 0.3rem;
+}
+.username{
+	width: 7.5rem;
+	height: 0.87rem;
+	border-bottom: 0.01rem solid #ccc;
+	background-color: #fff;
+}
+.username .shouji{
+	width: 1.5rem;
+	height: 0.87rem;
+	font-size: 0.3rem;
+	color: #595959;
+	line-height: 0.86rem;
+	padding-left: 0.3rem;
+	border-right: 0.01rem solid #ccc;
+	float: left;
+	background-color: #fff;
+}
+.username input{
+	width: 3.3rem;
+	height: 0.87rem;
+	border: 0;
+	padding-right: 0.56rem;
+	float: left;
+}
+.username .huoqu{
+	width: 1.5rem;
+	height: 0.87rem;
+	float: right;
+	background-color: #DFDFDF;
+	width:1.5rem; 
+	height:0.6rem;
+	float: right;
+	font-size: 0.3rem;
+	margin-top: 0.15rem;
+	line-height: 0.6rem;
+	color: #fff;
+	margin-right: 0.3rem;
+}
+.username .huoqu .yan{
+	width:1.5rem; 
+	height:0.6rem;
+	background-color: #DFDFDF;
+	float: right;
+	font-size: 0.3rem;
+	margin-top: 0.15rem;
+	line-height: 0.6rem;
+	color: #fff;
+}
+.username .dier{
+	width: 5.13rem;
+	height: 0.87rem;
+
+}
+.bai{
+	width: 7.5rem;
+	height: 1.11rem;
+	background-color: #fff;
+	padding-top: 0.13rem;
+}
+.denglu{
+	width: 6.9rem;
+	height: 0.85rem;
+	margin: 0 auto;
+	background-color: #00A208;
+	color: #fff;
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 0.85rem;
+	margin-top: 0.07rem; 
+}

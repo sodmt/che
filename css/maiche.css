@@ -1,0 +1,169 @@
+html{
+    font-size: 50px;
+}
+body{
+    margin: 0px;
+    padding: 0;
+}
+a,img,span{
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+ul,li,p{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.top{
+    width:100%;
+    height: 0.8rem;
+    position: fixed;
+    top:0;
+    background: #fff;
+}
+.top .mmai{
+    width:20%;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    text-align: center;
+    font-size: 0.28rem;
+    float: left;
+    margin-left:3rem;
+}
+.top .jindu{
+    width:15%;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    text-align: center;
+    font-size: 0.22rem;
+    color:#495056;
+    float: right;
+}
+.tu{
+    width:100%;
+    height: 5rem;
+    margin-top:0.7rem;
+}
+.tijiao{
+    width:7rem;
+    padding:0.1rem 0.25rem;
+    overflow: hidden;
+}
+.tijiao span{
+    font-size: 0.36rem;
+    color:#12AE31;
+    float: left;
+}
+.tijiao p{
+    font-size: 0.22rem;
+    color:#495056;
+    float: left;
+    padding-top:0.14rem;
+    margin-left:0.05rem;
+}
+input{
+    display: block;
+    width:7rem;
+    height: 0.8rem;
+    margin:0 auto;
+    outline: none;
+    padding:0;
+    border: 0;
+    padding: 0 0.1rem;
+    border:0.01rem solid #B3B7BB;
+    box-sizing: border-box;
+}
+.yuyue{
+    width:7rem;
+    height: 0.8rem;
+    margin:0 auto;
+    background-color: #12AE31;
+    color:#fff;
+    font-size: 0.32rem;
+    line-height: 0.8rem;
+    text-align: center;
+    margin-top:0.2rem;
+}
+.zixun{
+    width:7rem;
+    height: 0.85rem;
+    padding:0 0.25rem;
+    margin-top:0.2rem;
+}
+.zixun .yi{
+    width: 48%;
+    height: 0.8rem;
+    color:#495056;
+    font-size: 0.32rem;
+    line-height: 0.8rem;
+    text-align: center;
+    background: #F0F0F0;
+    border: 0.01rem solid #B3B7BB;
+    float:left;
+    margin-right:0.2rem;
+}
+.zixun .er{
+    width: 48%;
+    height: 0.8rem;
+    color:#495056;
+    font-size: 0.32rem;
+    line-height: 0.8rem;
+    text-align: center;
+    background: #F0F0F0;
+    border: 0.01rem solid #B3B7BB;
+    float:left;
+}
+.look{
+    width:7rem;
+    height: 0.85rem;
+    padding:0 0.25rem;
+
+}
+.look span{
+    font-size: 0.28rem;
+    line-height: 0.8rem;
+    text-align: center;
+    color:#ccc;
+    float:left;
+    margin:0 0.2rem;
+}
+.look .yi{
+    width:35%;
+    height: 0.01rem;
+    background: #B3B7BB;
+    margin:0.42rem 0;
+    float:left;
+
+}
+.wan{
+    width: 7.5rem;
+    height: 1rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    border-top: 0.01rem solid #EEF2F5;
+
+}
+.wan .yi{
+    width: 25%;
+    height: 1rem;
+    text-align: center;
+    font-size: 0.26rem;
+    float: left
+}
+.wan .yi span{
+    font-size: 0.5rem;
+    margin-top: 0.1rem;
+}
+.wan a{
+    color: #8B8B8B;
+}
+.wan a:hover{
+    color: #12AE31;
+}
+.wan .hot{
+    color: #37A844;
+}

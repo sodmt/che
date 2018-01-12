@@ -1,0 +1,333 @@
+html{
+	font-size: 50px;
+}
+body{
+	margin: 0px;
+	padding: 0;
+}
+a,img,span{
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+ul,li,p,i{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-style: normal;
+}
+.top{
+	width: 7.5rem;
+	height: 5rem;
+	position: relative;
+	top: 0;
+	left: 0;	
+}
+.top img{
+	width: 7.5rem;
+	height: 5rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.top .header{
+	width: 7.5rem;
+	height: 0.9rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+	line-height: 0.9rem;
+}
+.top .header span{
+	float: left;
+	margin: 0 0.25rem;
+	font-size: 0.4rem;
+	color: #fff;
+}
+.top .header .you{
+	float: right;
+}
+.cheyuan{
+	width: 7.5rem;
+	height: 0.9rem;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.cheyuan span{
+	width: 1.48rem;
+	height: 0.32rem;
+	padding: 0.02rem 0.1rem;
+	background-color: rgba(0, 0, 0, 0.3);
+	font-size: 0.14rem;
+	line-height: 0.32rem;
+	text-align: center;
+	margin-top: 0.35rem;
+	color: #fff;
+}
+.cheyuan .you{
+	font-size: 0.14rem;
+	float: right;
+	width: 1rem;
+	height: 0.32rem;
+	line-height: 0.32rem;
+	text-align: right;
+	margin-right: 0.25rem;
+	margin-top: -0.33rem;
+	color: #fff;
+}
+ .js{
+	width: 7rem;
+	height: auto;
+	padding: 0 0.25rem 0.22rem;	
+}
+ .js h1{
+	font-size: 0.34rem;
+	font-weight: normal;
+	color: #495056;
+}
+.js span{
+	width: 0.55rem;
+	height: 0.32rem;
+	background-color: #F5F6F9;
+	font-size: 0.2rem;
+	padding: 0 0.1rem;
+	text-align: center;
+	line-height: 0.32rem;
+	color: #8E959D;
+}
+ .js .bao{
+	font-size: 0.26rem;
+	margin-top: 0.4rem;
+	color: #495056;
+}
+ .js .bao i{
+	font-size: 0.32rem;
+	color: #FF704A;
+	font-style: normal;
+	margin-left: 0.1rem;
+}
+.daikuan{
+	width: 7rem;
+	height: 1.14rem;
+	padding: 0 0.25rem;
+	line-height: 1.14rem;
+}
+.daikuan span{
+	font-size: 0.5rem;
+	float: left;
+	color: #FF704A;
+	margin-right: 0.3rem;
+}
+.daikuan p{
+	float: left;
+	font-size: 0.3rem;
+}
+.daikuan .cece{
+	font-size: 0.28rem;
+	width: 2rem;
+	height: 0.6rem;
+	background-color: #FFF9F8;
+	border: 0.01rem solid #F2B9AD;
+	border-radius: 0.6rem;
+	float: right;
+	font-style: normal;
+	margin-top: 0.3rem;
+	line-height: 0.6rem;
+	color: #FF704A;
+	text-align: center;
+}
+.blank{
+	width: 7.5rem;
+	height: 0.1rem;
+	background-color: #F3F5F8;
+}
+.fwbz{
+	width: 7rem;
+	height: 2.3rem;
+	padding: 0.26rem 0.25rem 0;
+	margin: 0.12rem 0;
+}
+.fwbz .bz{
+	width: 7rem;
+	height: 0.48rem;
+	font-size: 0.26rem;
+}
+.fwbz .bz span{
+	display: inline;
+	color: #ABAFB3;
+	font-size: 0.16rem;
+}
+.fwbz ul{
+	width: 7rem;
+	height: 1.2rem;
+	padding: 0.26rem 0 0.04rem;
+}
+.fwbz ul li{
+	width: 25%;
+	height: 1.2rem;
+	float: left;
+	text-align: center;
+	font-size: 0.24rem;
+}
+.fwbz ul li span{
+	font-size: 0.5rem;
+	color: #33C85D;
+	margin-bottom: 0.2rem;
+}
+.fwbz ul li .yi{
+	font-size: 0.65rem;
+	margin-top: -0.1rem;
+	margin-bottom: 0.15rem;
+}
+.xinxi{
+	width: 7rem;
+	height: 4.9rem;
+	padding: 0.26rem 0.25rem 0.1rem;
+}
+.xinxi .xx{
+	width: 7rem;
+	height: 0.48rem;
+	line-height:0.48rem;
+	font-size: 0.3rem;
+}
+.xinxi ul{
+	width: 7rem;
+	height: 3.1rem;
+	padding-top: 0.2rem;
+	margin-bottom: 0.24rem;
+}
+.xinxi ul li{
+	width: 33.33%;
+	height: 33.33%;
+	float: left;
+	text-align: center;
+}
+.xinxi ul li span{
+	font-size: 0.24rem;
+	color: #B3B7BB;
+	margin-bottom: 0.05rem;
+}
+.xinxi ul li p{
+	font-size: 0.3rem;
+	color: #757F89;
+}
+.xinxi .xq{
+	width: 2.6rem;
+	height: 0.68rem;
+	border: 0.01rem solid #DFE1E2;
+	color: #757F89;
+	text-align: center;
+	font-size: 0.28rem;
+	margin: 0 auto;
+	line-height: 0.68rem
+}
+.chezhu{
+	width: 7rem;
+	height: 3rem;
+	padding: 0.26rem 0.25rem 0.12rem;
+}
+.chezhu .top{
+	width: 7rem;
+	height: 0.48rem;
+	line-height: 0.48rem;
+	font-size: 0.3rem;
+}
+.chezhu .cen{
+	width: 7rem;
+	height: 0.94rem;
+	margin-top: 0.1rem;
+}
+.chezhu .cen img{ 
+	width: 0.9rem;
+	height: 0.9rem;
+	float: left;
+}
+.chezhu .cen .you{
+	float: left;
+	margin-left: 0.3rem;
+}
+.chezhu .cen span{
+	font-size: 0.28rem;
+	color: #757F89;
+}
+.chezhu .cen p{
+	font-size: 0.24rem;
+	color: #ABAFB3;
+}
+.chezhu .xia{
+	width: 7rem;
+	height: 1.22rem;
+	margin-top: 0.2rem;
+}
+.chezhu .xia .x{
+	width: 2.18rem;
+	height: 0.48rem;
+	background-color: #F3F4F8;
+	float: left;
+	font-size: 0.2rem;
+	margin-right: 0.1rem;
+	margin-bottom: 0.1rem;
+	line-height: 0.48rem;
+	text-align: center;
+	color: #757F89;
+}
+.cheshen{
+	width: 7rem;
+	height: 5rem;
+	padding: 0 0.25rem;
+	font-size: 0.26rem;
+	color: #757F89;
+}
+.cheshen img{
+	width: 7rem;
+	height: 4rem;
+	margin-bottom: 0.2rem;
+}
+.cnxh{
+	width: 7rem;
+	height: auto;
+	padding: 0 0.25rem;
+	margin-bottom: 0.5rem;
+}
+.cnxh .lb{
+	width: 7rem;
+	height: auto;
+}
+.cnxh .lb li{
+	width: 7rem;
+	height: 1.62rem;
+	border-bottom: 0.01rem solid #EEF2F5;
+	margin-top: 0.15rem;
+}
+.cnxh .lb li a img{
+	float: left;
+	margin-right: 0.1rem;
+	width: 2.4rem;
+	height: 1.6rem;
+}
+.cnxh .lb li a{
+	font-size: 0.2rem;
+	color: #757F89;
+}
+.cnxh .lb li a h3{
+	margin: 0;
+	margin-bottom: 0.05rem;
+	font-weight: normal;
+	font-size: 0.26rem;
+	color: #495056;
+}
+.cnxh .lb li a .jg{
+	font-size: 0.24rem;
+	color: #ff7844;
+	margin-top: 0.1rem;
+}
+.cnxh .c{
+	width: 7rem;
+	height: 1rem;
+	line-height: 1rem;
+	font-size: 0.3rem;
+}
